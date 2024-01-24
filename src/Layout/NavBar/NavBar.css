@@ -1,0 +1,32 @@
+.navbar{
+    background-color:#212529;
+    color: white;
+}
+a{
+    color: white;
+}
+#logo{
+    height: 27px;
+  }
+  #cart {
+    position: relative;
+    padding: 4px;
+  }
+  
+  #numeroPeque {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    background: green;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 2px;
+    font-family:inherit;
+    font-size: 14px;
+    
+  }
