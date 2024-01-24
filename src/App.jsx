@@ -8,10 +8,10 @@ function App() {
 
   return (
     <>
-    <NavBar/>
-    <CartButton/>
-    <NavForm/>
-    <ItemList saludo={"Bienvenido a Draven's bookstore !!"}/>
+      <NavBar />
+      <CartButton />
+      <NavForm />
+      <ItemList saludo={"Bienvenido a Draven's bookstore !!"} />
     </>
   )
 }
