@@ -1,0 +1,11 @@
+.contador{
+display: flex;
+align-content: center;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: center;
+width: 100%;
+}
+.contador p {
+    margin: 0;
+}

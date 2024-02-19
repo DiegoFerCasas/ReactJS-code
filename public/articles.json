@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "title": "Ensayo sobre la ceguera",
+        "author": "jose Saramago",
+        "publication_year": 1995,
+        "format": "ebook",
+        "genre": [
+            "Novela",
+            "Ficcion"
+        ],
+        "description": "Una ceguera blanca se expande de manera fulminante. Internados en cuarentena o perdidos por la ciudad, los ciegos deben enfrentarse a lo más primitivo de la especie humana: la voluntad de sobrevivir a cualquier precio..",
+        "cover_image": "/ensayoCeguera.jfif",
+        "price": "110000",
+        "stock":"15"
+    },
+    {
+        "id": 2,
+        "title": "Cronicas del asesino de reyes",
+        "author": "Patrick Rothfuss",
+        "publication_year": 2011,
+        "format": "audio",
+        "genre": [
+            "Fantasia",
+            "Acción"
+        ],
+        "description": "A classic novel depicting racial injustice in the American South.",
+        "cover_image": "/elNomViento.jpg",
+        "price": "110000",
+        "stock":"16"
+    },
+    {
+        "id": 3,
+        "title": "Shibumi",
+        "author": "Trevanian",
+        "publication_year": 2011,
+        "format": "fisico",
+        "genre": [
+            "Novela",
+            "Acción"
+        ],
+        "description": "A classic novel depicting racial injustice in the American South.",
+        "cover_image": "/shibumi.jpg",
+        "price": "110000",
+        "stock":"10"
+    }
+]

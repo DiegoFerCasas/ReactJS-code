@@ -1,13 +1,8 @@
-.navbar{
-    background-color:#212529;
-    color: white;
-}
-a{
-    color: white;
-}
+
 #logo{
     height: 27px;
   }
+
   #cart {
     position: relative;
     padding: 4px;

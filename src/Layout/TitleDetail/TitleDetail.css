@@ -1,0 +1,12 @@
+.container_detail{
+    margin-top: 5rem;
+    margin-left: 50px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 30%;
+    right: 50;
+
+    
+    
+}
