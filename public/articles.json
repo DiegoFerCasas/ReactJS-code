@@ -2,7 +2,8 @@
     {
         "id": 1,
         "title": "Ensayo sobre la ceguera",
-        "author": "jose Saramago",
+        "book":"",
+        "author": "Jose Saramago",
         "publication_year": 1995,
         "format": "ebook",
         "genre": [
@@ -11,12 +12,13 @@
         ],
         "description": "Una ceguera blanca se expande de manera fulminante. Internados en cuarentena o perdidos por la ciudad, los ciegos deben enfrentarse a lo más primitivo de la especie humana: la voluntad de sobrevivir a cualquier precio..",
         "cover_image": "/ensayoCeguera.jfif",
-        "price": "110000",
+        "price": "110.000",
         "stock":"15"
     },
     {
         "id": 2,
         "title": "Cronicas del asesino de reyes",
+        "book":"El nombre del viento",
         "author": "Patrick Rothfuss",
         "publication_year": 2011,
         "format": "audio",
@@ -26,12 +28,13 @@
         ],
         "description": "A classic novel depicting racial injustice in the American South.",
         "cover_image": "/elNomViento.jpg",
-        "price": "110000",
+        "price": "110.000",
         "stock":"16"
     },
     {
         "id": 3,
         "title": "Shibumi",
+        "book":"",
         "author": "Trevanian",
         "publication_year": 2011,
         "format": "fisico",
@@ -41,7 +44,217 @@
         ],
         "description": "A classic novel depicting racial injustice in the American South.",
         "cover_image": "/shibumi.jpg",
-        "price": "110000",
+        "price": "110.000",
         "stock":"10"
+    },
+    {
+        "id": 4,
+        "title": "Cien años de soledad",
+        "book":"",
+        "author": "Gabriel Garcia Marquez",
+        "publication_year": "1967",
+        "format": "fisico",
+        "genre": [
+            "Novela",
+            "Realismo mágico"
+        ],
+        "description": "Enriquecida, prosa imaginativa que llegó a ser definida como realismo mágico",
+        "cover_image": "/cienAños.jfif",
+        "price": "48.000",
+        "stock":"160"
+    },
+    {
+        "id": 5,
+        "title": "El imperio del vampiro",
+        "book":"",
+        "author": "Jay Kristoff",
+        "publication_year": "2022",
+        "format": "audio",
+        "genre": [
+            "Novela",
+            "Fantasia"
+        ],
+        "description": "Gabriel de León es el último miembro de la Orden de Plata, dedicada a defender el reino y la iglesia antes de que los arrasaran. Su destrucción fue imparable cuando la luz del día nos abandonó.",
+        "cover_image": "/imperioDelVampiro.jfif",
+        "price": "109.500",
+        "stock":"3"
+    },
+    {
+        "id": 6,
+        "title": "Millenium 1",
+        "book":"Los hombres que no amaban a las mujeres",
+        "author": "Stieg Larsson",
+        "publication_year": "2005",
+        "format": "ebook",
+        "genre": [
+            "Novela",
+            "Acción"
+        ],
+        "description": "Henrik Vanger, head of the dynastic Vanger Corporation, is tormented by the loss of a child decades earlier and convinced that a member of his family has committed murder.",
+        "cover_image": "/millen1.jpg",
+        "price": "91.400",
+        "stock":"7"
+    },
+    {
+        "id": 7,
+        "title": "Sherlock Holmes",
+        "book":"Un escandalo en bohemia",
+        "author": "Arthur Connan Doyle",
+        "publication_year": "1891",
+        "format": "fisico",
+        "genre": [
+            "Novela",
+            "Policial"
+        ],
+        "description": "Este relato cuenta el caso de cómo Holmes y Watson intentan recuperar una fotografía para proteger el honor y el matrimonio del rey de Bohemia.",
+        "cover_image": "/SH-escandaloBohemia.jfif",
+        "price": "32.000",
+        "stock":"13"
+    },
+    {
+        "id": 8,
+        "title": "El recuerdo del pasado de la Tierra 2",
+        "book":"El bosque oscuro",
+        "author": "Cixin Liu",
+        "publication_year": "2008",
+        "format": "ebook",
+        "genre": [
+            "Novela",
+            "Sci-Fy"
+        ],
+        "description": "Ahora la Tierra tiene cuatro siglos para defenderse de lo inevitable: la llegada de los Trisolaris.",
+        "cover_image": "/BosqueOscuro.gif",
+        "price": "74.000",
+        "stock":"9"
+    },
+    {
+        "id": 9,
+        "title": "Cronicas del asesino de reyes 2",
+        "book":"El temor de un hombre sabio",
+        "author": "Patrick Rothfuss",
+        "publication_year": "",
+        "format": "ebook",
+        "genre": [
+            "Novela",
+            "Fantasia"
+        ],
+        "description": "Todo hombre sabio teme tres cosas: una tormenta en el mar, las noches sin luna y la cólera de un hombre bueno» La secuela de la extraordinaria El Nombre del Viento",
+        "cover_image": "/KC-eltemor.jfif",
+        "price": "98.000",
+        "stock":"24"
+    },
+    {
+        "id": 10,
+        "title": "Nacidos de la bruma 1",
+        "book":"El imperio final",
+        "author": "Brandon Sanderson",
+        "publication_year": "2020",
+        "format": "audio",
+        "genre": [
+            "Novela",
+            "Fantasia"
+        ],
+        "description": "Durante mil años los skaa han sido esclavizados y viven sumidos en un miedo inevitable",
+        "cover_image": "/mist2.jpg",
+        "price": "51.000",
+        "stock":"2"
+    },
+    {
+        "id": 11,
+        "title": "Millenium 3",
+        "book":"La reina en el palacio de las corrientes de aire",
+        "author": "Stieg Larsson",
+        "publication_year": "",
+        "format": "ebook",
+        "genre": [
+            "Novela",
+            "Policial"
+        ],
+        "description": "Lisbet está acusada de triple asesinato y fuerzas poderosas intentan silenciarla de una vez por todas. Mientras, Michael Blomkvist escarba en su oscuro pasado y pronto encuentra sus huellas. (",
+        "cover_image": "/millen3.jpg",
+        "price": "29.000",
+        "stock":"11"
+    },
+    {
+        "id": 12,
+        "title": "Millenium 2",
+        "book":"La chica que soñaba con una cerilla y un bidon de gasolina",
+        "author": "Stieg Larsson",
+        "publication_year": "",
+        "format": "ebook",
+        "genre": [
+            "Novela",
+            "Policial"
+        ],
+        "description": "Una muchacha, atada a una cama, soporta un día tras otro las horribles visitas de un ser despreciable y, sin decir palabra, sueña con una cerilla y un bidón de gasolina, con la forma de provocar el fuego que acabe con todo.",
+        "cover_image": "/millen2.jpg",
+        "price": "29.990",
+        "stock":"4"
+    },
+    {
+        "id": 13,
+        "title": "Asi hablaba zaratustra",
+        "book":"",
+        "author": "Friedrich Nietzsche",
+        "publication_year": "1883",
+        "format": "fisico",
+        "genre": [
+            "Novela",
+            "Filosofía"
+        ],
+        "description": "Es un libro bastante inusual en la historia de la filosofía occidental. No es realmente una novela, no es realmente poesía y no es realmente un tratado filosófico tradicional.",
+        "cover_image": "/zaratustra.jpg",
+        "price": "32.000",
+        "stock":"8"
+    },
+    {
+        "id": 14,
+        "title": "Angeles y demonios",
+        "book":"",
+        "author": "Dan Brown",
+        "publication_year": "2000",
+        "format": "audio",
+        "genre": [
+            "Novela",
+            "Terror",
+            "Policial"
+        ],
+        "description": "El profesor de simbología Robert Langdon recibe una misteriosa llamada a las tantas de la madrugada y se ve envuelto en una persecución en la que tratará de evitar la destrucción de la Ciudad del Vaticano.",
+        "cover_image": "/ang y dem.jpg",
+        "price": "43.000",
+        "stock":"6"
+    },
+    {
+        "id": 15,
+        "title": "Crimen y castigo",
+        "book":"",
+        "author": "Fiódor Dostoyevski",
+        "publication_year": "1866",
+        "format": "audio",
+        "genre": [
+            "Novela",
+            "Psicológica"
+        ],
+        "description": "narra tres historias que están superpuestas y entrelazadas en varios puntos. La trama principal es la historia del asesinato cometido por Raskólnikov y su arrepentimiento.",
+        "cover_image": "/CrimCas.gif",
+        "price": "58.000",
+        "stock":"10"
+    },
+    {
+        "id": 16,
+        "title": "Los jardines de la luna",
+        "book":"Malaz: El libro de los caídos",
+        "author": "Steven Erikson",
+        "publication_year": "1999",
+        "format": "fisico",
+        "genre": [
+            "Novela",
+            "Fantasia"
+        ],
+        "description": "Tras interminables guerras, amargas luchas internas y sangrientas confrontaciones, incluso las tropas imperiales necesitan un descanso. Pero la obsesión expansionista de la emperatriz Lassen no tiene límites, y cuenta con el apoyo de sus sanguinarios agentes de la Garra.",
+        "cover_image": "/malaz1.jpg",
+        "price": "107.000",
+        "stock":"17"
     }
+    
 ]

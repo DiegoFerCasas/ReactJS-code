@@ -5,13 +5,13 @@
 
   #cart {
     position: relative;
-    padding: 4px;
+    padding: 8px;
   }
   
   #numeroPeque {
     position: absolute;
-    top: 0;
-    left: 10%;
+    top: 6px;
+    left: 11%;
     background: green;
     width: 16px;
     height: 16px;
@@ -25,3 +25,45 @@
     font-size: 14px;
     
   }
+
+  #datalistSuggestions {
+  position: absolute;
+  color: white;
+  background-color: #708090;
+  max-height: 250px;
+  overflow-y: auto;
+  opacity: 0;
+  pointer-events: none;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+#searchInputBox.active #datalistSuggestions {
+  opacity: 1;
+  pointer-events: auto;
+  padding: 6px 8px;
+}
+#searchInputBox.active #datalistSuggestions li {
+  display: block;
+}
+
+#datalistSuggestions li {
+  width: 100%;
+  padding: 8px 12px;
+  border-radius: 5px;
+  display: none;
+}
+
+form #searchButton.boton {
+  margin: 0;
+  padding: 6px 19px;
+  font-size: 16px;
+  font-family: inherit;
+  color: #198754;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+#searchButton.boton:hover {
+  color: white;
+}

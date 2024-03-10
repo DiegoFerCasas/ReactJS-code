@@ -1,0 +1,10 @@
+.cardCover{
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  display: -webkit-box;
+}
+.priceDetailContainer{
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+}

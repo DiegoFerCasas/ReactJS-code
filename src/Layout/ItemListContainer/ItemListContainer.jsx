@@ -5,33 +5,38 @@ import { useParams } from 'react-router-dom';
 
 const ItemListContainer = () => {
     const [productos, setProductos] = useState([]);
-    const { categoryId } = useParams()
-
+    const { formatoType } = useParams();
+    
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch("./articles.json");
+                const response = await fetch("/articles.json");
                 const data = await response.json();
-                if (categoryId) {
-                    const filterProducts = data.filter((p) => p.format == categoryId)
-                   
+                
+               
+                if (formatoType) {
+                    const filterProducts = data.filter((p) => p.format == formatoType)
                     setProductos(filterProducts)
                 } else {
                     setProductos(data)
+                    
                 }
             } catch (error) {
-                console.log("error")
+            console.log("error")
             }
         }
+        
         fetchData()
-    }, [categoryId]
+    }, [formatoType]
     )
-
+    
     return (
-        <main>
-            <div>
-                <h1>Draven's Bookstore</h1>
-                {productos.length == 0 ? <h1>CARGANDO</h1> : <ItemList productos={productos} />}
+        <main className='container-fluid cardContainer'>
+            <h1>Draven's Bookstore</h1>
+            <div className='container'>
+                <div className='row d-flex titleCardContainer'>
+                    {productos.length == 0 ? <h1>CARGANDO</h1> : <ItemList productos={productos} />}
+                </div>
             </div>
         </main>
     )
