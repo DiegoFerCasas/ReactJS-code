@@ -10,16 +10,16 @@ const TitleDetail = ({ producto }) => {
   const {agregarCarroDeCompras}= useContext(ShoppingContext)
 
   const adiciona = (count) => {
-
+    console.log (count) 
     setCart(true)
 
     agregarCarroDeCompras(producto,count)
-    
+   
   }
 
   return (
     <>
-      <main classNameName="container-fluid">
+      <main className="container-fluid">
         <section className="py-5">
           <div id="productCardContainer" className="container">
 

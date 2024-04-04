@@ -8,9 +8,7 @@ const ShopingCart = () => {
   return (
 
     <>
-    <h1>va la madre
-
-    </h1>
+<h1>carrito</h1>
     </>
   )
 }
