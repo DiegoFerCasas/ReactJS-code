@@ -5,10 +5,11 @@ export const ShoppingContext = createContext()
 const CartProvider = ({ children }) => {
 
   const [cart, setCart] = useState([]);
+  const [total,setTotal]= useState(0)
+  const [quantity,setQuantity]= useState(0)
 
-  const agregarCarroDeCompras = (producto,cantidad) => {
-console.log (producto)
-console.log (cantidad)
+  const agregarCarroDeCompras = (producto, cantidad) => {
+  
   }
 
   const eliminarTitulo = () => {
@@ -27,7 +28,10 @@ console.log (cantidad)
 
   return (
     <ShoppingContext.Provider value={{
-      cart
+      cart,
+      total,
+      quantity,
+      agregarCarroDeCompras
 
     }} >
       {children}

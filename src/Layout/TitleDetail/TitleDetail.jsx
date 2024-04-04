@@ -1,20 +1,20 @@
-import React, {useState, useContext} from 'react'
+import React, { useState, useContext } from 'react'
 import ItemCounter from '../ItemCounter/ItemCounter';
 import './TitleDetail.css'
 import { ShoppingContext } from '../../context/ShoppingContext';
+import { Link } from 'react-router-dom';
 
 const TitleDetail = ({ producto }) => {
 
-  const [Cart, setCart] = useState(false)
+  const [cart, setCart] = useState(false)
 
-  const {agregarCarroDeCompras}= useContext(ShoppingContext)
+  const { agregarCarroDeCompras } = useContext(ShoppingContext)
 
   const adiciona = (count) => {
-    console.log (count) 
-    setCart(true)
 
-    agregarCarroDeCompras(producto,count)
-   
+    setCart(true)
+    agregarCarroDeCompras(producto, count)
+
   }
 
   return (
@@ -72,8 +72,8 @@ const TitleDetail = ({ producto }) => {
                   </div>
 
                   <hr />
-                  
-                  <ItemCounter initial={1} stock={producto.stock} onAdd={adiciona} />
+                  {cart ? <Link to={'/cart'} className="btn btn-warning shadow-0" >Buy now</Link> : <ItemCounter initial={1} stock={producto.stock} onAdd={adiciona} />}
+
 
 
                 </div>

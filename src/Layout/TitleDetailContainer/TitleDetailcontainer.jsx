@@ -18,7 +18,6 @@ const TitleDetailcontainer = () => {
       .then(res => {
         const data = res.data()
         const newProduct = { id: res.id, ...data }
-        console.log(newProduct)
         setProducto(newProduct)
       })
 
