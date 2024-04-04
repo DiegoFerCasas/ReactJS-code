@@ -1,0 +1,29 @@
+#productoComprasPage {
+    background-image: url("https://assets-susanwiggs.sfo2.cdn.digitaloceanspaces.com/2020/05/storefront-scaled.jpg");
+    background-size: cover;
+    height: 100vh;
+  }
+  
+  #seccionCompras #seccionCompras-carrito h1 {
+    font-size: calc(1.375rem + 1.5vw);
+    font-family: "Merriweather", serif;
+    text-shadow: none;
+  }
+  #seccionCompras .pt-5 h6 {
+    text-align: left;
+  }
+  #seccionCompras #seccionCompras-carrito-resumen {
+    color: #ffffff;
+  }
+  #seccionCompras #seccionCompras-carrito-resumen h3 {
+    color: #ffffff;
+  }
+  #seccionCompras #seccionCompras-carrito-resumen .boton {
+    padding: 11px 21px;
+  }
+  
+  .seccionComprasRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
