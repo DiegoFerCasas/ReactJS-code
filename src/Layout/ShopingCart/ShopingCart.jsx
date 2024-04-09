@@ -1,5 +1,6 @@
 import React, { useContext } from 'react'
 import './ShopingCart.css'
+import CartList from '../CartList/CartList'
 import { ShoppingContext } from '../../context/ShoppingContext'
 import { Link } from 'react-router-dom'
 
@@ -68,30 +69,8 @@ const ShopingCart = () => {
                             </div>
                             <hr className="my-4" />
                             <div id="seccionCompras-carrito-items">
-                              <div className='p-5'>
-                                <div className="col-md-2 col-lg-2 col-xl-2">
-                                  <img
-                                    src=".x"
-                                    className="img-fluid rounded-3" alt="Cotton T-shirt" />
-                                </div>
-                                <div className="col-md-3 col-lg-3 col-xl-3">
-                                  <h6 className="text-muted">x</h6>
-                                  <h6 className="text-black mb-0">x</h6>
-                                </div>
-                                <div className="col-md-3 col-lg-3 col-xl-2 d-flex">
-
-
-                                  <input min="0" name="quantity" value="x" type="number"
-                                    className="form-control form-control-sm" />
-
-
-                                </div>
-                                <div className="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
-                                  <h6 className="mb-0">COP$</h6>
-                                </div>
-                                <button id="x" className="col-md-1 col-lg-1 col-xl-1 text-end elimina-item text-muted"><i className="fas fa-times"></i></button>
-                                <hr className="my-4" />
-                              </div>
+                              {<CartList cart={cart}/>}
+                              
                             </div>
                             <div className="pt-5">
                               <h6 className="mb-0">
