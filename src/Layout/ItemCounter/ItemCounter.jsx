@@ -28,7 +28,7 @@ const ItemCounter = ({ initial, stock, onAdd }) => {
       <div className="row mb-5">
         <div className="col-md-4 col-6 mb-3">
           <label className="mb-2 d-block">Cantidad</label>
-          <div className="input-group mb-3" style={{ "width": "170px;" }}>
+          <div className="input-group mb-3" style={{ "width": "170px" }}>
 
             <button onClick={decrementar} className="btn btn-white border border-secondary px-2" type="button" id="button-addon1" data-mdb-ripple-color="dark">
               <i className="fas fa-minus" aria-hidden="true"></i>

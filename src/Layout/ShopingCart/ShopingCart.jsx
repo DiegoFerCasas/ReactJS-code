@@ -11,7 +11,7 @@ const ShopingCart = () => {
 
     <>
 
-      {cart.length == 0
+      {cart.length === 0
         ?
         <>
           <main id="productoComprasPage">
@@ -19,7 +19,7 @@ const ShopingCart = () => {
               <div className="container py-5 h-100">
                 <div className="row d-flex justify-content-center align-items-center h-100">
                   <div className="col-12">
-                    <div className="card card-registration card-registration-2" style={{ "border-radius": " 15px" }} >
+                    <div className="card card-registration card-registration-2" style={{ "borderRadius": " 15px" }} >
                       <div className="card-body p-0">
                         <div className="row g-0">
                           <div id="seccionCompras-carritoVacio" className="col-lg-8">
@@ -57,14 +57,13 @@ const ShopingCart = () => {
             <div className="container py-5 h-100">
               <div className="row d-flex justify-content-center align-items-center h-100">
                 <div className="col-12">
-                  <div className="card card-registration card-registration-2" style={{ "border-radius": " 15px" }} >
+                  <div className="card card-registration card-registration-2" style={{ "borderRadius": " 15px" }} >
                     <div className="card-body p-0">
                       <div className="row g-0">
                         <div id="seccionCompras-carritoVacio" className="col-lg-8">
                           <div className="p-5">
                             <div className="d-flex justify-content-between align-items-center mb-5">
-                              <h1 className="fw-bold mb-0 text-black">No tienes items en el carrito <i className="fa fa-frown-o"
-                                aria-hidden="true"></i> </h1>
+                              <h1 className="fw-bold mb-0 text-black">Shopping cart</h1>
                               <h6 className="mb-0 text-muted">0 items</h6>
                             </div>
                             <hr className="my-4" />
@@ -72,25 +71,25 @@ const ShopingCart = () => {
                               <div className='p-5'>
                                 <div className="col-md-2 col-lg-2 col-xl-2">
                                   <img
-                                    src=".${element.titulo.image}"
+                                    src=".x"
                                     className="img-fluid rounded-3" alt="Cotton T-shirt" />
                                 </div>
                                 <div className="col-md-3 col-lg-3 col-xl-3">
-                                  <h6 className="text-muted">${element.titulo.type.capitalize()}</h6>
-                                  <h6 className="text-black mb-0">${element.titulo.name}</h6>
+                                  <h6 className="text-muted">x</h6>
+                                  <h6 className="text-black mb-0">x</h6>
                                 </div>
                                 <div className="col-md-3 col-lg-3 col-xl-2 d-flex">
 
 
-                                  <input min="0" name="quantity" value="${element.cantidad}" type="number"
+                                  <input min="0" name="quantity" value="x" type="number"
                                     className="form-control form-control-sm" />
 
 
                                 </div>
                                 <div className="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
-                                  <h6 className="mb-0">COP$${element.precio * element.cantidad}</h6>
+                                  <h6 className="mb-0">COP$</h6>
                                 </div>
-                                <button id="${element.titulo.id}" className="col-md-1 col-lg-1 col-xl-1 text-end elimina-item text-muted"><i className="fas fa-times"></i></button>
+                                <button id="x" className="col-md-1 col-lg-1 col-xl-1 text-end elimina-item text-muted"><i className="fas fa-times"></i></button>
                                 <hr className="my-4" />
                               </div>
                             </div>

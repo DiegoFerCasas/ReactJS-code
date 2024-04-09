@@ -30,7 +30,7 @@ const NavBar = () => {
                 <NavLink className="nav-link" to={'formato/fisico'}> Audiolibros</NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink className="nav-link" id='cart' to={'/Cart'}><span style={{"margin-right":"8px"}}><img src="./icon-car.png" width="20"
+                  <NavLink className="nav-link" id='cart' to={'/Cart'}><span style={{"marginRight":"8px"}}><img src="./icon-car.png" width="20"
                     alt="carrito de compras" /></span><span id="numeroPeque" width="10">0</span>Carrito de compra</NavLink>
                 </li>
               </ul>
